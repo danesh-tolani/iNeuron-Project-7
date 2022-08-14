@@ -83,7 +83,7 @@ nav {
 
 .left-section h1 {
     font-family: 'Fredoka One';
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 100;
     margin-bottom: 25px;
 }
@@ -219,5 +219,116 @@ border-radius: 50%;
     left: 17px
 }
 
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+       justify-content: space-around;
+    }
+    
+    [alt="logo"] {
+        width: 50px
+    }
+
+    .nav-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+        width: 40vw;
+        margin-left: 0px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        list-style: none;
+        font-size: 10px;
+        color: #323636;
+      }
+    
+    [alt="actions"] {
+        width: 130px;
+        margin-left: 0px;
+    }
+    
+
+    .intro-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .left-section {
+        width: 90%;
+        margin: 40px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        width: 300px;
+        font-size: 10px;
+        margin-top: 20px;
+        text-align: center;
+        /* display: none; */
+    }
+
+    .left-section h1 {
+    font-size: 30px;
+    text-align: center;
+    }
+
+    .left-section h3 {
+        display: none;
+    }
+    
+
+    .sub-headline img {
+        margin-left: 10px;
+    }
+
+    .right-section {
+        margin: 0 auto;
+        right:0;
+    }
+
+    [alt="headphone"] {
+        width: 300px;
+    }
+
+    .action-btns {
+        justify-content: center;
+        margin-top: 20px;
+        left: 0px
+    }
+    
+    .action-btn {
+        width: 70px;
+        height: 22px;
+        font-size: 10px;
+        top: 10px;
+    }
+
+    .discount-content {
+        left: -2px; 
+    }
+    
+    .discount-content h1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .discount-content h4 {
+        top: 8px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .discount {
+        top: 195px;
+        right: 225px;
+        width: 100px;
+    }
+
+  }
 
 
